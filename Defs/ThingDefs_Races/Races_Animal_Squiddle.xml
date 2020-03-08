@@ -5,9 +5,9 @@
     <label>Squiddle</label>
     <description>A squiddling.</description>
     <statBases>
-      <MoveSpeed>1.0</MoveSpeed>
+      <MoveSpeed>1.75</MoveSpeed>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
-      <MarketValue>300</MarketValue>
+      <MarketValue>200</MarketValue>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
     <tools>
@@ -53,7 +53,7 @@
       <body>CephalopodAnimal</body>
       <baseBodySize>0.2</baseBodySize>
       <baseHungerRate>0.1</baseHungerRate>
-      <baseHealthScale>0.6</baseHealthScale>
+      <baseHealthScale>2.0</baseHealthScale>
       <foodType>CarnivoreAnimal</foodType>
       <leatherDef>Leather_Light</leatherDef>
       <wildness>0.75</wildness>

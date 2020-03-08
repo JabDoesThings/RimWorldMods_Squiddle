@@ -6,23 +6,23 @@
 	<BodyPartDef>
 		<defName>CephalopodUpperBody</defName>
 		<label>cephalopod upper body</label>
-		<hitPoints>40</hitPoints>
+		<hitPoints>150</hitPoints>
 		<frostbiteVulnerability>4</frostbiteVulnerability>
 		<permanentInjuryChanceFactor>2</permanentInjuryChanceFactor>
 		<skinCovered>true</skinCovered>
-		<solid>false</solid>
-		<bleedRate>0.3</bleedRate>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
 	</BodyPartDef>
 
 	<!-- Cephalopod Esophagus -->
 	<BodyPartDef>
 		<defName>CephalopodEsophagus</defName>
 		<label>cephalopod esophagus</label>
-		<hitPoints>40</hitPoints>
+		<hitPoints>150</hitPoints>
 		<permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
 		<solid>false</solid>
-		<bleedRate>0.15</bleedRate>
+		<bleedRate>0.1</bleedRate>
 		<tags>
 			<li>EatingPathway</li>
 		</tags>
@@ -32,7 +32,7 @@
 	<BodyPartDef>
 		<defName>CephalopodMouth</defName>
 		<label>cephalopod mouth</label>
-		<hitPoints>40</hitPoints>
+		<hitPoints>60</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
 	    <solid>true</solid>
@@ -44,11 +44,11 @@
 	    </tags>
 	</BodyPartDef>
 
-		<!-- Cephalopod Teeth -->
+	<!-- Cephalopod Teeth -->
 	<BodyPartDef>
 		<defName>CephalopodTeeth</defName>
 		<label>cephalopod teeth</label>
-		<hitPoints>20</hitPoints>
+		<hitPoints>50</hitPoints>
 		<permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
 		<solid>true</solid>
@@ -59,11 +59,11 @@
 	<BodyPartDef>
 		<defName>CephalopodGill</defName>
 		<label>gill</label>
-		<hitPoints>30</hitPoints>
+		<hitPoints>50</hitPoints>
 		<permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
 		<solid>false</solid>
-		<bleedRate>0.33</bleedRate>
+		<bleedRate>0.2</bleedRate>
 	    <tags>
 	    	<li>BreathingSource</li>
 	    </tags>
@@ -73,11 +73,11 @@
 	<BodyPartDef>
 		<defName>CephalopodFin</defName>
 		<label>fin</label>
-		<hitPoints>25</hitPoints>
+		<hitPoints>50</hitPoints>
 		<permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
 		<skinCovered>true</skinCovered>
-		<solid>false</solid>
-		<bleedRate>0.2</bleedRate>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
 	    <tags>
 	    	<li>BreathingSource</li>
 	    </tags>
@@ -87,34 +87,34 @@
 	<BodyPartDef>	
 		<defName>CephalopodGonad</defName>
 		<label>gonad</label>
-		<hitPoints>20</hitPoints>
+		<hitPoints>50</hitPoints>
 		<permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
 		<skinCovered>true</skinCovered>
 		<solid>false</solid>
-		<bleedRate>0.2</bleedRate>
+		<bleedRate>0.1</bleedRate>
 	</BodyPartDef>
 
 	<!-- Cephalopod Ink Sac -->
 	<BodyPartDef>
 		<defName>CephalopodInkSac</defName>
 		<label>ink sac</label>
-		<hitPoints>20</hitPoints>
+		<hitPoints>50</hitPoints>
 		<permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
 		<solid>false</solid>
-		<bleedRate>0.1</bleedRate>
+		<bleedRate>0.05</bleedRate>
 	</BodyPartDef>
 
 	<!-- Cephalopod Pen -->
 	<BodyPartDef>
 		<defName>CephalopodPen</defName>
 		<label>pen</label>
-		<hitPoints>16</hitPoints>
+		<hitPoints>45</hitPoints>
 		<frostbiteVulnerability>2</frostbiteVulnerability>
 		<permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
 		<skinCovered>true</skinCovered>
-		<solid>false</solid>
-		<bleedRate>0.2</bleedRate>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
 	</BodyPartDef>
 
 
@@ -125,12 +125,12 @@
 	<BodyPartDef>
 		<defName>CephalopodLowerBody</defName>
 		<label>lower body</label>
-		<hitPoints>40</hitPoints>
+		<hitPoints>100</hitPoints>
 		<frostbiteVulnerability>2</frostbiteVulnerability>
 		<permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
 		<skinCovered>true</skinCovered>
 		<solid>false</solid>
-		<bleedRate>0.3</bleedRate>
+		<bleedRate>0.1</bleedRate>
 		<tags>
 			<li>MovingLimbCore</li>
 			<li>ManipulationLimbCore</li>
@@ -141,7 +141,7 @@
 	<BodyPartDef>
 		<defName>CephalopodTentacle</defName>
 		<label>tentacle</label>
-		<hitPoints>40</hitPoints>
+		<hitPoints>100</hitPoints>
 		<frostbiteVulnerability>2</frostbiteVulnerability>
 		<skinCovered>true</skinCovered>
 		<bleedRate>0.1</bleedRate>
@@ -151,10 +151,11 @@
 	    </tags>
 	</BodyPartDef>
 
+	<!-- Cephalopod Tentacle Club -->
 	<BodyPartDef>
 		<defName>CephalopodTentacleClub</defName>
 		<label>tentacle club</label>
-		<hitPoints>32</hitPoints>
+		<hitPoints>50</hitPoints>
 		<frostbiteVulnerability>2</frostbiteVulnerability>
 		<skinCovered>true</skinCovered>
 		<bleedRate>0.1</bleedRate>
@@ -164,10 +165,11 @@
 	    </tags>
 	</BodyPartDef>
 
+	<!-- Cephalopod Tentacle Spike -->
 	<BodyPartDef>
 		<defName>CephalopodTentacleSpike</defName>
 		<label>tentacle spike</label>
-		<hitPoints>24</hitPoints>
+		<hitPoints>50</hitPoints>
 		<frostbiteVulnerability>2</frostbiteVulnerability>
 		<skinCovered>true</skinCovered>
 		<bleedRate>0.1</bleedRate>

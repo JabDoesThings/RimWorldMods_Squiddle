@@ -1,4 +1,6 @@
 <Defs>
+	
+	<!-- Basic Cephalopod Animal -->
 	<BodyDef>
 		<defName>CephalopodAnimal</defName>
 		<label>cephalopod animal</label>
@@ -7,6 +9,8 @@
 			<height>Middle</height>
 			<depth>Outside</depth>
 			<parts>
+
+				<!-- Upper Body. The internal organs go here. -->
 				<li>
 					<def>CephalopodUpperBody</def>
 					<customLabel>upper body</customLabel>
@@ -16,6 +20,27 @@
 						<li>HeadAttackTool</li>
 					</groups>
 					<parts>
+						<!-- OUTSIDE ORGANS -->
+						<li>
+							<def>CephalopodMouth</def>
+							<customLabel>mouth</customLabel>
+							<coverage>0.10</coverage>
+							<depth>Outside</depth>
+							<groups>
+								<li>Mouth</li>
+							</groups>
+							<parts>
+								<li>
+									<def>CephalopodTeeth</def>
+									<customLabel>teeth</customLabel>
+									<coverage>0.667</coverage>
+									<depth>Inside</depth>
+									<groups>
+										<li>Teeth</li>
+									</groups>
+								</li>
+							</parts>
+						</li>
 						<li>
 							<def>Eye</def>
 							<customLabel>left eye</customLabel>
@@ -64,6 +89,8 @@
 							<coverage>0.05</coverage>
 							<depth>Outside</depth>
 						</li>
+
+						<!-- INTERNAL ORGANS -->
 						<li>
 							<def>Brain</def>
 							<coverage>0.05</coverage>
@@ -91,33 +118,16 @@
 							<coverage>0.10</coverage>
 							<depth>Inside</depth>
 						</li>
-						<li>
-							<def>CephalopodMouth</def>
-							<customLabel>mouth</customLabel>
-							<coverage>0.10</coverage>
-							<depth>Outside</depth>
-							<groups>
-								<li>Mouth</li>
-							</groups>
-							<parts>
-								<li>
-									<def>CephalopodTeeth</def>
-									<customLabel>teeth</customLabel>
-									<coverage>0.667</coverage>
-									<depth>Inside</depth>
-									<groups>
-										<li>Teeth</li>
-									</groups>
-								</li>
-							</parts>
-						</li>
 					</parts>
 				</li>
+
+				<!-- Lower body. Tentacles & Appendages go here. -->
 				<li>
 					<def>CephalopodLowerBody</def>
 					<customLabel>lower body</customLabel>
 					<coverage>0.35</coverage>
 					<depth>Outside</depth>
+
 					<parts>
 						
 						<!-- Left Tentacle Club -->
