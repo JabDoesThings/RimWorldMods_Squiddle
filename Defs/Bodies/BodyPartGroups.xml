@@ -1,0 +1,13 @@
+<Defs>
+
+  	<BodyPartGroupDef>
+    	<defName>TentacleClub</defName>
+    	<label>tentacle club</label>
+ 	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+    	<defName>TentacleSpike</defName>
+    	<label>tentacle spike</label>
+  	</BodyPartGroupDef>
+
+</Defs>

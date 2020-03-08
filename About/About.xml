@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Squiddle Mod</name>
+	<author>Jab</author>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>Jab.SquiddleMod</packageId>
+	
+	<description>Adds Squiddles To the Game</description>
+</ModMetaData>

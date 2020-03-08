@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ <PawnKindDef Name="AnimalBase10" Abstract="True"></PawnKindDef>
+	<PawnKindDef ParentName="AnimalBase10">
+    <defName>Squiddle</defName>
+    <label>squiddle</label>
+    <race>Squiddle</race>
+    <combatPower>100</combatPower>
+    <ecoSystemWeight>0.25</ecoSystemWeight>
+    <wildGroupSize>1~3</wildGroupSize>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Squiddle/Squiddle</texPath>
+          <drawSize>1.6</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</texPath>
+          <drawSize>1.1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Squiddle/Squiddle</texPath>
+          <drawSize>2.0</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</texPath>
+          <drawSize>2.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Squiddle/Squiddle</texPath>
+          <drawSize>2.0</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</texPath>
+          <drawSize>1.3</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

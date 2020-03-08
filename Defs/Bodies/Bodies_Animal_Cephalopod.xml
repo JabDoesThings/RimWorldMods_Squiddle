@@ -1,0 +1,270 @@
+<Defs>
+	<BodyDef>
+		<defName>CephalopodAnimal</defName>
+		<label>cephalopod animal</label>
+		<corePart>
+			<def>Body</def>
+			<height>Middle</height>
+			<depth>Outside</depth>
+			<parts>
+				<li>
+					<def>CephalopodUpperBody</def>
+					<customLabel>upper body</customLabel>
+					<coverage>0.5</coverage>
+					<depth>Outside</depth>
+					<groups>
+						<li>HeadAttackTool</li>
+					</groups>
+					<parts>
+						<li>
+							<def>Eye</def>
+							<customLabel>left eye</customLabel>
+							<coverage>0.10</coverage>
+							<depth>Outside</depth>
+						</li>
+						<li>
+							<def>Eye</def>
+							<customLabel>right eye</customLabel>
+							<coverage>0.10</coverage>
+							<depth>Outside</depth>
+						</li>
+						<li>
+							<def>CephalopodGill</def>
+							<customLabel>left gill</customLabel>
+							<coverage>0.05</coverage>
+							<depth>Outside</depth>
+						</li>
+						<li>
+							<def>CephalopodGill</def>
+							<customLabel>right gill</customLabel>
+							<coverage>0.05</coverage>
+							<depth>Outside</depth>
+						</li>
+						<li>
+							<def>CephalopodFin</def>
+							<customLabel>left fin</customLabel>
+							<coverage>0.10</coverage>
+							<depth>Outside</depth>
+						</li>
+						<li>
+							<def>CephalopodFin</def>
+							<customLabel>right fin</customLabel>
+							<coverage>0.10</coverage>
+							<depth>Outside</depth>
+						</li>
+						<li>
+							<def>CephalopodGonad</def>
+							<customLabel>gonad</customLabel>
+							<coverage>0.02</coverage>
+							<depth>Outside</depth>
+						</li>
+						<li>
+							<def>CephalopodPen</def>
+							<customLabel>pen</customLabel>
+							<coverage>0.05</coverage>
+							<depth>Outside</depth>
+						</li>
+						<li>
+							<def>Brain</def>
+							<coverage>0.05</coverage>
+							<depth>Inside</depth>
+						</li>
+						<li>
+							<def>Heart</def>
+							<coverage>0.05</coverage>
+							<depth>Inside</depth>
+						</li>
+						<li>
+							<def>Stomach</def>
+							<coverage>0.05</coverage>
+							<depth>Inside</depth>
+						</li>
+						<li>
+							<def>CephalopodInkSac</def>
+							<customLabel>ink sac</customLabel>
+							<coverage>0.05</coverage>
+							<depth>Inside</depth>
+						</li>
+						<li>
+							<def>CephalopodEsophagus</def>
+							<customLabel>esophagus</customLabel>
+							<coverage>0.10</coverage>
+							<depth>Inside</depth>
+						</li>
+						<li>
+							<def>CephalopodMouth</def>
+							<customLabel>mouth</customLabel>
+							<coverage>0.10</coverage>
+							<depth>Outside</depth>
+							<groups>
+								<li>Mouth</li>
+							</groups>
+							<parts>
+								<li>
+									<def>CephalopodTeeth</def>
+									<customLabel>teeth</customLabel>
+									<coverage>0.667</coverage>
+									<depth>Inside</depth>
+									<groups>
+										<li>Teeth</li>
+									</groups>
+								</li>
+							</parts>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>CephalopodLowerBody</def>
+					<customLabel>lower body</customLabel>
+					<coverage>0.35</coverage>
+					<depth>Outside</depth>
+					<parts>
+						
+						<!-- Left Tentacle Club -->
+						<li>
+							<def>CephalopodTentacle</def>
+							<customLabel>tentacle</customLabel>
+							<coverage>0.1</coverage>
+							<depth>Outside</depth>
+							<parts>
+								<li>
+									<def>CephalopodTentacleClub</def>
+									<customLabel>left tentacle club</customLabel>
+									<coverage>0.25</coverage>
+									<depth>Outside</depth>
+									<groups>
+										<li>TentacleClub</li>
+									</groups>
+								</li>
+							</parts>
+						</li>
+
+						<!-- Right Tentacle Club -->
+						<li>
+							<def>CephalopodTentacle</def>
+							<customLabel>tentacle</customLabel>
+							<coverage>0.1</coverage>
+							<depth>Outside</depth>
+							<parts>
+								<li>
+									<def>CephalopodTentacleClub</def>
+									<customLabel>right tentacle club</customLabel>
+									<coverage>0.25</coverage>
+									<depth>Outside</depth>
+									<groups>
+										<li>TentacleClub</li>
+									</groups>
+								</li>
+							</parts>
+						</li>
+
+
+						<!-- Tentacle Points -->
+						<li>
+							<def>CephalopodTentacle</def>
+							<customLabel>tentacle</customLabel>
+							<coverage>0.125</coverage>
+							<depth>Outside</depth>
+							<parts>
+								<li>
+									<def>CephalopodTentacleSpike</def>
+									<customLabel>tentacle spike</customLabel>
+									<coverage>0.125</coverage>
+									<depth>Outside</depth>
+									<groups>
+										<li>TentacleSpike</li>
+									</groups>
+								</li>
+							</parts>
+						</li>
+						<li>
+							<def>CephalopodTentacle</def>
+							<customLabel>tentacle</customLabel>
+							<coverage>0.125</coverage>
+							<depth>Outside</depth>
+							<parts>
+								<li>
+									<def>CephalopodTentacleSpike</def>
+									<customLabel>tentacle spike</customLabel>
+									<coverage>0.125</coverage>
+									<depth>Outside</depth>
+									<groups>
+										<li>TentacleSpike</li>
+									</groups>
+								</li>
+							</parts>
+						</li>
+						<li>
+							<def>CephalopodTentacle</def>
+							<customLabel>tentacle</customLabel>
+							<coverage>0.125</coverage>
+							<depth>Outside</depth>
+							<parts>
+								<li>
+									<def>CephalopodTentacleSpike</def>
+									<customLabel>tentacle spike</customLabel>
+									<coverage>0.125</coverage>
+									<depth>Outside</depth>
+									<groups>
+										<li>TentacleSpike</li>
+									</groups>
+								</li>
+							</parts>
+						</li>
+						<li>
+							<def>CephalopodTentacle</def>
+							<customLabel>tentacle</customLabel>
+							<coverage>0.125</coverage>
+							<depth>Outside</depth>
+							<parts>
+								<li>
+									<def>CephalopodTentacleSpike</def>
+									<customLabel>tentacle spike</customLabel>
+									<coverage>0.125</coverage>
+									<depth>Outside</depth>
+									<groups>
+										<li>TentacleSpike</li>
+									</groups>
+								</li>
+							</parts>
+						</li>
+						<li>
+							<def>CephalopodTentacle</def>
+							<customLabel>tentacle</customLabel>
+							<coverage>0.125</coverage>
+							<depth>Outside</depth>
+							<parts>
+								<li>
+									<def>CephalopodTentacleSpike</def>
+									<customLabel>tentacle spike</customLabel>
+									<coverage>0.125</coverage>
+									<depth>Outside</depth>
+									<groups>
+										<li>TentacleSpike</li>
+									</groups>
+								</li>
+							</parts>
+						</li>
+						<li>
+							<def>CephalopodTentacle</def>
+							<customLabel>tentacle</customLabel>
+							<coverage>0.125</coverage>
+							<depth>Outside</depth>
+							<parts>
+								<li>
+									<def>CephalopodTentacleSpike</def>
+									<customLabel>tentacle spike</customLabel>
+									<coverage>0.125</coverage>
+									<depth>Outside</depth>
+									<groups>
+										<li>TentacleSpike</li>
+									</groups>
+								</li>
+							</parts>
+						</li>
+					</parts>
+				</li>
+			</parts>
+		</corePart>
+	</BodyDef>
+</Defs>
